@@ -1,0 +1,10 @@
+# Build output
+bin/
+
+# Cloudflare tunnel credentials must never be committed.
+*.json
+!config.example.json
+.cloudflared/
+
+build-plan.md
+config.example.json
